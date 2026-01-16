@@ -61,9 +61,9 @@ Final Output
 
 
 ## 🧠 Technology Stack
-- **Programming Language:** Python  
+- **Programming Language:** Python, HTML5, CSS3, JavaScript  
 - **Libraries:** NumPy, Pandas, Scikit-learn  
-- **Machine Learning Models:** Linear Regression, Logistic Regression, Neural Network  
+- **Machine Learning Models:** Linear Regression, Logistic Regression, Neural Network, Random Forest  
 - **Data Sources:** Government of India datasets, Kaggle  
 - **Tools:** Jupyter Notebook, Git, GitHub  
 
