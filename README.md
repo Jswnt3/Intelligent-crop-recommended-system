@@ -67,14 +67,29 @@ Final Output
 - **Data Sources:** Government of India datasets, Kaggle  
 - **Tools:** Jupyter Notebook, Git, GitHub  
 
+## ❓ Which Machine Learning Model Performed Best and Why?
 
+**Which model was selected for the final crop recommendation system?**  
+Random Forest (RF) was selected as the final model after evaluating multiple machine learning classifiers.
 
-## ❓ Why SQL Instead of NoSQL?
-SQL was chosen because:
-- Agricultural datasets are **highly structured**
-- Strong data consistency is required for analytics
-- Supports relational queries for yield and profit analysis
-- Easier maintenance and reporting for structured data
+**How was the best model determined?**  
+The cleansed dataset was split into **60% training** and **40% testing** data and evaluated using five classifiers:
+- Logistic Regression (with pipeline)
+- Support Vector Machine (SVM)
+- Decision Tree (DT)
+- Random Forest (RF)
+- K-Nearest Neighbors (KNN)
+
+Each model was evaluated using **confusion matrices, ROC curves, and accuracy scores**.
+
+**Why was Random Forest chosen over other models?**
+- Achieved the **highest accuracy** among all evaluated classifiers
+- Handles non-linear relationships between soil, climate, and crop parameters effectively
+- Reduces overfitting through ensemble learning
+- Performs reliably on structured agricultural datasets
+
+**Outcome:**  
+Based on comparative evaluation, **Random Forest consistently outperformed other models** and was therefore selected as the best classifier for crop recommendation.
 
 
 
