@@ -89,8 +89,8 @@ SQL was chosen because:
 
 ## 🚀 Installation & Execution
 
-```bash
 git clone https://github.com/Jswnt3/Intelligent-crop-recommended-system.git
+```
 cd Intelligent-Crop-Recommendation-System
 pip install -r requirements.txt
 python main.py
